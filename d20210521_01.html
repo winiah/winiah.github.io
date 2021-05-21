@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="zh-tw" xml:lang="zh-tw" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 字元編碼 -->
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<!-- 讓搜尋引擎知道該怎麼爬本頁 -->
+<meta name="robots" content="all" />
+<!-- 文件作者名稱 -->
+<meta name="author" content="winiAlienHacker" />
+<!-- 文件授權方式 -->
+<meta name="copyright" content="Creative Commons Deed Attribution-NonCommercial-ShareAlike 2.5" />
+<!-- 本站絕對位置 -->
+<meta name="homePage" content="http://www.andcycle.idv.tw/~wini/" />
+<!-- 請修改頁面標題名稱 -->
+<title>疾病應變管制一覽表（※測試版※）</title>
+<!-- 請修改搜尋到文件時的頁面描述 -->
+<meta name="description" content="疾病應變管制及各縣市規定" />
+<link rel="start" title="本區的起始頁面" href="./index.html" />
+<link rel="home" title="本站首頁" href="http://www.andcycle.idv.tw/~wini/index.html" />
+<link rel="copyright" title="文件授權方式" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+<link rev="made" href="mailto:winiah@gmail.com" />
+
+<!-- ### COMMENT: 原始碼好髒…(source code so dirty...) ### -->
+
+<!-- ### CSS ### -->
+<style type="text/css">
+@media print { body {padding-bottom:0em!important} }
+body {font-size:18px;padding-bottom:12em}
+//*Debug*// * {border:1px solid red;}
+h1 {text-align:left;border-bottom:1px solid black;clear:both;margin:1em 10% 1em 10%;padding-left:5%} /* 大標 - 基本原則、縣市名稱 */
+h2 {text-align:left;clear:both;margin:1em 10%;padding-left:5%} /* 小標 - 次要說明、管制分類 */
+div.spacer {clear:both}
+div.pager {page-break-after:always}
+ul {list-style:none} /* 列表外框 */
+li /* 項目浮動樣式 */
+  {
+  display:block;
+  width:30%;
+  float:left;
+  text-align:center;
+  border:1px solid black;
+  border-radius:36px;
+  margin:1.5%;
+  padding:1em 0;
+  font-size:xx-large
+  }
+li span {display:block;margin:1em 10% 0 10%;padding-top:0.4em;border-top:1px solid black;font-size:large}
+li span span {display:none}
+li span.breaker {display:block;margin:0;border:0}
+li span.warn {display:inline;margin:0;border:0}
+.warn {border-color:red;color:red}
+.warn span {border-color:red}
+.note {border-color:gray;color:gray}
+.note span {border-color:gray}
+div.big_pic {width:60%;margin:3em auto}
+.big_pic img {width:100%}
+div.sml_pic {width:20%;margin:3em auto}
+.sml_pic img {width:100%}
+table tr td:first-child {text-align:center}
+table tr td:nth-child(2) {text-align:center}
+
+/* Troubleshooting: 還在找純css 下拉式選單該怎麼點擊收放、支援純鍵盤瀏覽 */
+@media print { #quicklist {display:none} }
+#quicklist * {border:0;margin:0;padding:0;font-size:large}
+#quicklist {width:2.2em;border:1px solid black;background:white;float:left;position:fixed;top:0;left:0}
+#quicklist ul {display:none}
+#quicklist:hover {width:auto}
+#quicklist:hover ul {display:block;width:auto}
+#quicklist:hover ul li {display:block;width:100%;clear:both;text-align:left}
+#quicklist:hover ul li a {display:block;width:100%}
+#quicklist:hover ul li a:hover {background:#ff7}
+
+  a:link {color:blue;text-decoration:none}
+  a:visited {color:gray;text-decoration:none}
+  a:hover {text-decoration:underline}
+</style>
+</head>
+
+<body>
+
+<h1 id="policy">基本原則</h1>
+
+<ul>
+<li>配戴口罩<span><span>（</span><span class="warn">三級強制外出配戴口罩</span>、務必學會並保持正確配戴方式<span>）</span></span></li>
+<li>肥皂洗手<span><span>（</span>手心手背、指尖指縫、前臂，未清洗請勿摸眼睛口鼻。<span>）</span></span></li>
+<li class="warn">減少出門<span><span>（</span>全國停課學生請在家自習、雙親請防疫假不扣考績<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+<h2>三級對應</h2>
+<ul>
+<li>餐飲外帶不內用</li>
+<li>非必要不去醫院</li>
+<li>娛樂場所全停業</li>
+<li class="warn">避免跨縣市移動</li>
+<li>聽從地方政府指揮<span><span>（</span>北市 fb.com/DoctorKoWJ <span>、</span><span class="breaker">新北 fb.com/houyuih</span> <span>、</span><span class="breaker">屏縣 fb.com/pan.menan1</span><span class="breaker">疾管家 Line <span class="warn">@</span>taiwan<span class="warn">cdc</span></span><span>）</span></span></li>
+<li>停課不停學<span><span>（</span>國高中以下及公托私托全面停課兩週，改<span  class="warn">"酷課雲"、"均一教育平台"、"學習吧"、"因材網"</span>或其他軟體線上教學，電視請看公視３台下午一點半至四點半"疫起線上看"，請避免外出。<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+
+<div class="pager"></div>
+<h2>檢疫相關</h2>
+<ul>
+<li class="warn">有症狀、或被告知有接觸史才去快篩站</li>
+<li>安裝"社交距離"App<span><span>（</span>使用時請開啟手機藍芽<span>）</span></span></li>
+<li>疫調交由地方負責<span><span>（</span>市內電話請打 1922 或 1999 或 119<span>）</span></span></li>
+<li class="warn">確診反向匡列隔離最優先<span><span>（</span>減少 R0 值、避免繼續一傳十十傳百<span>）</span></span></li>
+<li class="note">全台即日起陸續設置戶外快篩站<span><span>（</span>Coming sooooon...<span>）</span></span></li>
+<li>簡訊實聯制<span><span>（</span>傳送<span class="warn">店家代碼</span>的"簡訊"給各電信商的 1922，不用網路也不需掃圖，不必裝 App，資料 28 天後自動銷毀。<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+<h2>店家內用最基本防疫要求</h2>
+<ul>
+<li>實聯制<span><span>（</span>姓氏、電話、時間<span>）</span></span></li>
+<li>量測體溫</li>
+<li>手部消毒</li>
+<li>梅花座<span><span>（</span>並肩相坐須設隔板<span>）</span></span></li>
+<li>加強清潔<span><span>（</span>稀釋漂白水消清<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+<div class="pager"></div>
+<h2>實聯制（能正確聯絡上即可）</h2>
+<ul>
+<li>姓名</li>
+<li>電話</li>
+<li>時間</li>
+<li>人數</li>
+<li class="warn">"不需"身分證字號</li>
+</ul>
+<div class="spacer"></div>
+
+<h2>大眾運輸</h2>
+<ul>
+<li>載具實名<span><span>（</span>線上登記、綁定手機條碼<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+<div class="big_pic"><img src="https://pbs.twimg.com/media/E1kt7K7UYAATdxc?format=jpg&name=orig" /></div>
+
+
+<div class="pager"></div>
+<h2>飲食外食</h2>
+<ul>
+<li>內用管制、縮減座位<span><span>（</span>麥當勞*McD*、肯德基*KFC*、丹丹*Dain*、摩斯*mos*、四大超商等<span>）</span></span></li>
+<li>路邊攤<span><span>（</span>【個人建議】不外用、不拿免洗餐具、不拿餐巾紙、請店員幫忙酒精噴霧消毒手部、減少找零錢動作、盡量使用行動支付無現金交易<span>）</span></span></li>
+<li>自助餐<span><span>（</span>不內用、店員代夾<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+<h2>其他補充</h2>
+<ul>
+<li>實聯表單自動填寫<span><span>（</span>iOS 設定 → 聯絡資訊 → 我的資料<span>）</span></span></li>
+<li>居家清潔<span><span>（</span>【個人建議】1:99 稀釋漂白水，每兩至三天，乾淨抹布沾濕，擦拭門把、洗臉台、馬桶沖水開關、樓梯扶手。<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+
+<div class="pager"></div>
+<h1 id="visitor">簡訊實聯制、其他實聯制</h1><!-- 過期不符現況者請移除 -->
+<ul>
+<li class="sml_pic">硬體需求<span><span>（</span>傳送<span class="warn">店家代碼</span>到 <span class="warn">1922</span>，只要手機能發送<span class="warn">簡訊</span>即可，手機掃 QR Code 會直接問是否要發簡訊，不需要網路。<span class="breaker">測試用</span> <img src="https://s3-ap-northeast-1.amazonaws.com/g0v-hackmd-images/uploads/upload_de6d0bbc8f0785713b97a4ec402837c5.png" alt="行政院新聞中心 場所代碼：1111 2131 4151 617" /><span>）</span></span></li>
+<li class="sml_pic">Google 智慧鏡頭<span><span>（</span>安卓手機請安裝此 Google 官方程式以辨識 QR Code 圖 <img src="https://pbs.twimg.com/media/E10644ZVIAIqqsq?format=png&name=orig" title="Google Play 商店頁面" alt="https://play.google.com/store/apps/details?id=com.google.ar.lens" /><span>）</span></span></li>
+<li class="sml_pic">店家申請<span><span>（</span>店家請至"簡訊實聯制QR Code登記作業"網站申請下載，網址 emask.taiwan.gov.tw/real 。<span class="breaker">"簡易查詢"是給已申請完 QR code 的重抓圖的，第一次登記，請選"用這個身分登記"的按鈕，按指示完成註冊。</span> <img src="https://pbs.twimg.com/media/E1vkgR6VEAAy4pp?format=png&name=orig" title="簡訊實聯制QR Code登記作業" alt="https://emask.taiwan.gov.tw/real/" /><span>）</span></span></li>
+<li>自家會員 App<span><span>（</span>全家超商*FamilyMart*(有安裝者開啟藍芽靠近櫃台即自動完成)<span>）</span></span></li>
+<li>自家網站表單<span><span>（</span>郵局*中華郵政iPost*、中國信託*CTBC Bank*<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+
+<div class="pager"></div>
+<h1 id="pingtung">屏東縣</h1>
+
+<ul>
+<li class="warn">各級學校及公私立幼兒園全面停課<span><span>（</span>停課不停學、用餐不間斷<span>）</span></span></li>
+<li>已設立戶外採檢站<span><span>（</span>縣內 14 家專責醫院見附表<span>）</span></span></li>
+<li class="warn">三級警戒<span><span>（</span>一律外帶不內用、強制出外戴口罩<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+<table border="1px" cellpadding="4px" align="center">
+<tr><th>急救責任分級</th><th>隔離／應變醫院</th><th>機構名稱</th></tr>
+<tr><td>中度級</td><td>網區/縣市應變醫院</td><td>衛生福利部屏東醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>高雄榮民總醫院屏東分院</td></tr>
+<tr><td>重度級</td><td>隔離醫院</td><td>安泰醫療社團法人安泰醫院</td></tr>
+<tr><td>中度級</td><td>隔離醫院</td><td>輔英科技大學附設醫院</td></tr>
+<tr><td>中度級</td><td>隔離醫院</td><td>枋寮醫療社團法人枋寮醫院</td></tr>
+<tr><td>中度級</td><td>隔離醫院</td><td>屏基醫療財團法人屏東基督教醫院</td></tr>
+<tr><td>中度級</td><td>隔離醫院</td><td>國仁醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>國軍高雄總醫院附設屏東民眾診療服務處</td></tr>
+<tr><td>中度級</td><td>隔離醫院</td><td>寶建醫療社團法人寶建醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>南門醫療社團法人南門醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>恆基醫療財團法人恆春基督教醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>衛生福利部恆春旅遊醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>大新醫院</td></tr>
+<tr><td>一般級</td><td>-</td><td>安泰醫療社團法人潮州安泰醫院</td></tr>
+</table>
+
+<div class="pager"></div>
+<h2>暫時關閉</h2>
+<ul>
+<li class="warn">長照托嬰機構<span><span>（</span>除特殊需求外<span>）</span></span></li>
+<li>縣屬設施<span><span>（</span>圖書館、美術館、校園、游泳池等<span>）</span></span></li>
+<li>終身學習場所<span><span>（</span>社區大學、樂齡學習中心、部落大學、勞動大學等<span>）</span></span></li>
+<li>文化處會館</li>
+<li>社福館舍</li>
+<li>社區關懷據點</li>
+<li>原鄉文健站</li>
+<li class="warn">宗教場所</li>
+</ul>
+<div class="spacer"></div>
+
+<h2>活動停止</h2>
+<ul>
+<li class="warn">長照托嬰服務<span><span>（</span>除特殊需求外<span>）</span></span></li>
+<li>文化處演出活動</li>
+<li>各社團交流活動</li>
+<li>黑鮪魚季</li>
+<li class="warn">宗教活動</li>
+</ul>
+<div class="spacer"></div>
+
+<div class="pager"></div>
+<h2>觀光相關</h2>
+<ul>
+<li>旅宿須實名制</li>
+<li>加強清潔消毒</li>
+<li>一律配戴口罩</li>
+</ul>
+<div class="spacer"></div>
+
+<h2>加強管制</h2>
+<ul>
+<li>婚喪喜慶<span><span>（</span>縮小規模、落實實聯制<span>）</span></span></li>
+<li>政府公所<span><span>（</span>人流管制、落實實聯制<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+<div class="pager"></div>
+<h2>其他</h2>
+<ul>
+<li>加強消毒頻率<span><span>（</span>公共區域<span>）</span></span></li>
+<li>減少異地洽公<span><span>（</span>各單位非必要之異地洽公<span>）</span></span></li>
+<li>防疫措施升級<span><span>（</span>車站、轉運站、候船室<span>）</span></span></li>
+<li>防疫假<span><span>（</span>高中以下學生得請假、不列出缺勤、不扣成績<span>）</span></span></li>
+<li>簡訊實聯制<span><span>（</span>鼓勵店家及民眾使用簡訊實聯制，快速免費不用安裝 App。<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+<div class="big_pic"><img src="https://pbs.twimg.com/media/E105eD0UYAQsidl?format=jpg&name=orig" /></div>
+
+
+
+<div class="pager"></div>
+<h1 id="taipei">台北市</h1>
+
+<h2>重點</h2>
+<ul>
+<li>三級警戒<span><span>（</span>沒事給我待在家，外出要戴口罩，不要在外吃東西。<span>）</span></span></li>
+<li>擴大量能<span><span>（</span>採檢站、專責醫院、專責病床、防疫旅館等<span>）</span></span></li>
+<li>籲請配合<span><span>（</span>相信市民會主動遵守人數規定、向國軍三總借醫護人力等<span>）</span></span></li>
+<li class="warn">勞工防疫假<span><span>（</span>家庭照顧假及防疫照顧假，不支薪且不扣考績，公司違規罰責兩萬元到三十萬元，從嚴認定及擬定提高罰責。<span>）</span></span></li>
+<li class="warn">集中管制資源<span><span>（</span>疫苗、醫護、醫院、隔離所<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+<div class="sml_pic"><img src="https://scontent.fkhh2-2.fna.fbcdn.net/v/t1.6435-9/186472671_3443543689080920_6501206417209457594_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=5NhtP06-ozYAX_sFHgJ&_nc_ht=scontent.fkhh2-2.fna&oh=263ee798eee984b3ae32bed6255b2adc&oe=60C4D6CA" /></div>
+
+
+<div class="pager"></div>
+<h2>北市三級對應</h2>
+<ul>
+<li>確診輕症者<span><span>（</span>確診者約 75% 為輕症或無症狀，確診者若３天內未收到衛生局通知，請主動聯繫 2375-3782 防疫專線。搭乘防疫巴士，前往集中檢疫所，或防疫旅館，由醫護協助健康監控，視情況可提早返家，請照地方政府指示。<span>）</span></span></li>
+<li class="warn">請打疫苗<span><span>（</span>醫護、公車司機等，市府有告知疫苗能打，請盡量施打。<span>）</span></span></li>
+<li>避免醫院進入清零<span><span>（</span>院內感染發生時，採人數管制，避免醫院完全停擺。<span>）</span></span></li>
+<li class="warn">移工特赦令<span><span>（</span>無牌、無證件移工請積極加入防疫及篩檢<span>）</span></span></li>
+<li>不配合防疫直接開單<span><span>（</span>未戴口罩，警察直接開單開罰。<span>）</span></span></li>
+<li class="sml_pic">徵用退休退職醫護人員<span><span>（</span>北市請至此報名並等候通知及訓練備用 <img src="https://pbs.twimg.com/media/E1vfwQwVkAAhQWP?format=png&name=orig" alt="https://ncov.tpech.gov.tw:21088/Vaccine/index.php/RetiredStaff/form/1" title="健康關懷天使 退離人員專家召集令 2021.05.19" /><span>）</span></span></li>
+<li>社會福利中心<span><span>（</span>生活上有緊急需求、煩惱不安，市內提供 12 處社福中心求助，附表如下。<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+
+<div class="pager"></div>
+<h2>臺北社會福利服務中心（12處）</h2>
+<table border="1px" cellpadding="12px" align="center">
+<tr><th>行政區</th><th>電話</th><th>地址</th></tr>
+<tr><td>中山區</td><td>2515-6222</td><td>合江街137號3樓</td></tr>
+<tr><td>大同區</td><td>2597-4452</td><td>昌吉街57號6樓</td></tr>
+<tr><td>中正區</td><td>2396-2340</td><td>延平南路207號6樓</td></tr>
+<tr><td>萬華區</td><td>2336-5700</td><td>梧州街36號5樓</td></tr>
+<tr><td>大安區</td><td>2703-0523</td><td>四維路198巷30弄5號2樓之9</td></tr>
+<tr><td>文山區</td><td>2932-3587</td><td>興隆路二段160號6樓</td></tr>
+<tr><td>松山區</td><td>2756-5018</td><td>民生東路五段163-1號9樓</td></tr>
+<tr><td>信義區</td><td>2761-6515</td><td>松隆路36號5樓</td></tr>
+<tr><td>內湖區</td><td>2792-8701</td><td>星雲街161巷3號4樓</td></tr>
+<tr><td>南港區</td><td>2783-1407</td><td>市民大道八段367號3樓</td></tr>
+<tr><td>士林區</td><td>2835-0247</td><td>基河路140號1樓</td></tr>
+<tr><td>北投區</td><td>2894-5933</td><td>新市街30號5樓</td></tr>
+</table>
+
+<div class="pager"></div>
+<h1 id="testing">篩檢與自我隔離、回溯框列</h1>
+<ul>
+<li>隔離者請保持冷靜<span><span>（</span><span class="warn">配合醫護及防疫人員指示，每日服藥、抽血、量測體溫，不要攻擊醫護。</span><span class="breaker">隔離十天，症狀有改善者，再觀察七天，就會解隔離。</span><span class="breaker">隔離期間，家屬可送餐或生活需求品，至專責醫院或檢疫所，有疑問請向防疫人員諮詢。</span><span>）</span></span></li>
+<li>快篩前後<span><span>（</span>有症狀、或有收到接觸史通知，請前往所在縣市之快篩站。<span class="breaker">快篩完成後，如為陽性，請告知<span class="warn">"出現症狀前三天到接受隔離"</span>的活動與接觸史。</span><span class="breaker">中、重度症狀者，會由救護車送至專責病房醫院，輕症者，請採自我隔離。</span><span class="breaker">自我隔離採<span class="warn">一人一室浴廁不共用，戴口罩少出門，</span>不去公共場所，不搭乘大眾運輸，勤洗手、多消毒環境，量測體溫，等候後續 PCR 篩檢結果。</span><span class="breaker">陰性請照三級警戒標準，維持自我防護。</span><span>）</span></span></li>
+<li>確診前後<span><span>（</span>快篩會採檢兩次，一次用於快篩，一次用於 PCR 核酸篩檢。<span class="breaker">快篩陽性先採前述自我隔離，或建議坐防疫巴士至檢疫所，等候隔天的 PCR 結果。</span><span class="breaker">PCR 核酸篩檢為陽性，請遵守衛生局指示，依症狀輕重，會分別送至專責病房醫院，或集中檢疫所。</span><span class="breaker warn">若快篩陽性後，３天內未接到衛生局通知，請主動聯繫所在縣市防疫專線。</span><span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+
+<!-- 備份，之後的版本可刪除。
+<div class="pager"></div>
+<h1 id="memo">筆者暫記筆記（純個人預測僅作警覺用途）</h1>
+<ul>
+<li>全台社區感染，大家都是共同戰線，沒有人是局外人。</li>
+<li>估計最好情況是本土每天只加十幾或幾十例，在半年內壓到個位數或零。</li>
+<li>有症狀或有接觸史，前往快篩，陽性就能盡快隔離，提早切斷傳染鍊。</li>
+<li>北市目前的戰術（簡略說明版）<span><span>（</span>
+一、確診反向匡列接觸史；
+二、快篩陰性照三級警戒生活；
+三、快篩陽性視症狀輕重有無來處理；
+四、輕症無症狀的回家或去防疫所等隔天的 PCR 結果；
+五、症狀較重的送專責醫院；
+六、PCR 陰性送防疫旅館觀察照顧；
+七、PCR 陽性視症狀來處理；
+八、PCR 陽性輕症無症狀就送檢疫所、防疫旅館或加強版防疫旅館；
+九、PCR 陽性重症就是專責病房或負壓隔離病房治療的樣子；
+十、市民自肅跟持續投入防疫人員及旅館等的資源。
+<span>）</span></span></li>
+<li>中央視人民如敵人會很危險<span><span>（</span>牽扯到疫苗、補助跟確診足跡等的，勿轉傳非由疾管家發出的訊息，盡量避免加劇中央指揮系統混亂。<span>）</span></span></li>
+<li>誠實與自肅<span><span>（</span>減少外出活動，是最有效切斷傳染鍊的方法。有接觸史，務必誠實告知，確診者並請通知相關接觸者，提早完成篩檢隔離。<span>）</span></span></li>
+<li>雙北以外之風險<span><span>（</span>至少要像屏縣一樣勤勞抄作業，確實開罰單，民眾盡早使用簡訊實聯制，才能壓下傳染數，目前一樣是避免跨縣市移動，保護自己也保護別人。<span>）</span></span></li>
+<li>在家能做的事<span><span>（</span>有網路的話，就……看巴哈動畫瘋，不然就看阿北影片合輯，當成佛經在背景播放。酷課雲等資源，建議優先給學校單位使用。沒有網路的話，就……打掃家裡，或玩 PSP 或 NS 吧（汗）<span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+-->
+
+
+<!--
+<div class="pager"></div>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li><span><span>（</span> <span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+-->
+
+<div id="quicklist">
+<h1>快速選單</h1>
+<ul>
+<li><a href="#policy">基本原則</a></li>
+<li><a href="#visitor">簡訊實聯制、其他實聯制</a></li>
+<li><a href="#pingtung">屏東縣</a></li>
+<li><a href="#taipei">台北市</a></li>
+<li><a href="#testing">篩檢與自我隔離、回溯框列</a></li>
+<li><a href="./index.html">【回首頁】</a></li>
+</ul>
+<div class="spacer"></div>
+</div>
+
+</body>
+</html>
