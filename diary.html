@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="zh-tw" xml:lang="zh-tw" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 字元編碼 -->
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<!-- 讓搜尋引擎知道該怎麼爬本頁 -->
+<meta name="robots" content="all" />
+<!-- 文件作者名稱 -->
+<meta name="author" content="winiAlienHacker" />
+<!-- 文件授權方式 -->
+<meta name="copyright" content="Creative Commons Deed Attribution-NonCommercial-ShareAlike 2.5" />
+<!-- 本站絕對位置 -->
+<meta name="homePage" content="http://www.andcycle.idv.tw/~wini/" />
+<!-- 請修改頁面標題名稱 -->
+<title>疾病應變管制一覽表（※測試版※）</title>
+<!-- 請修改搜尋到文件時的頁面描述 -->
+<meta name="description" content="疾病應變管制及各縣市規定" />
+<link rel="start" title="本區的起始頁面" href="./index.html" />
+<link rel="home" title="本站首頁" href="http://www.andcycle.idv.tw/~wini/index.html" />
+<link rel="copyright" title="文件授權方式" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+<link rev="made" href="mailto:winiah@gmail.com" />
+
+<!-- ### COMMENT: 原始碼好髒…(source code so dirty...) ### -->
+
+<!-- ### CSS ### -->
+<style type="text/css">
+@media print { body {padding-bottom:0em!important} }
+body {font-size:18px;padding-bottom:12em}
+//*Debug*// * {border:1px solid red;}
+h1 {text-align:left;border-bottom:1px solid black;clear:both;margin:1em 10% 1em 10%;padding-left:5%} /* 大標 - 基本原則、縣市名稱 */
+h2 {text-align:left;clear:both;margin:1em 10%;padding-left:5%} /* 小標 - 次要說明、管制分類 */
+div.spacer {clear:both}
+div.pager {page-break-after:always}
+ul {list-style:none} /* 列表外框 */
+li /* 項目浮動樣式 */
+  {
+  display:block;
+  width:80%;
+  float:left;
+  text-align:center;
+  border:1px solid black;
+  border-radius:36px;
+  margin:1.5% 6%;
+  padding:1em 0;
+  font-size:xx-large
+  }
+li span {display:block;margin:1em 10% 0 10%;padding-top:0.4em;border-top:1px solid black;font-size:large;text-align:left}
+li span span {display:none}
+li span.breaker {display:block;margin:0;border:0}
+li span.warn {display:inline;margin:0;border:0}
+.warn {border-color:red;color:red}
+.warn span {border-color:red}
+.note {border-color:gray;color:gray}
+.note span {border-color:gray}
+div.big_pic {width:60%;margin:3em auto}
+.big_pic img {width:100%}
+div.sml_pic {width:20%;margin:3em auto}
+.sml_pic img {width:100%}
+table tr td:first-child {text-align:center}
+table tr td:nth-child(2) {text-align:center}
+
+/* Troubleshooting: 還在找純css 下拉式選單該怎麼點擊收放、支援純鍵盤瀏覽 */
+@media print { #quicklist , #simple {display:none} }
+#quicklist * {border:0;margin:0;padding:0;font-size:large}
+#quicklist {width:2.2em;border:1px solid black;background:white;float:left;position:fixed;top:0;left:0}
+#quicklist ul {display:none}
+#quicklist:hover {width:auto}
+#quicklist:hover ul {display:block;width:auto}
+#quicklist:hover ul li {display:block;width:100%;clear:both;text-align:left}
+#quicklist:hover ul li a {display:block;width:100%}
+#quicklist:hover ul li a:hover {background:#ff7}
+
+  a:link {color:blue;text-decoration:none}
+  a:visited {color:gray;text-decoration:none}
+  a:hover {text-decoration:underline}
+</style>
+</head>
+
+<body>
+
+<h1>每日記者會簡要</h1>
+
+<ul>
+  <li>6/13 記者會簡要<span><span>（</span><span class="breaker">AZ 疫苗施打預約中，非設籍在該縣市，請向附近里長登記。</span><span class="breaker">疫苗只是提升抵抗力，只能防重症死亡，不能防感染帶原，請一定要繼續保持三級警戒。</span><span class="breaker">施打疫苗後，有發燒等症狀，若普拿疼無法解除，請一定要去醫院掛號看病。</span><span class="breaker">到府接種，已造冊規畫，請等候通知，並請確認是否為衛生局員工。</span><span class="breaker">下週一 6/14 會完成診所的疫苗配發等工作。</span><span class="breaker">出外採買，建議使用菜籃車，一次買多一點，並積極使用無現金交易，台北市民建議使用台北通以便實聯制。</span><span class="breaker">中央承認上海復星為德國 BNT 合法代理商，但 BNT 緊急許可細節不明。</span><span class="breaker">機組員隔離期間由 3+11 改成 7+7，但會議記錄等細節不明。</span><span>）</span></span></li>
+  <li>6/12 記者會簡要<span><span>（</span><span class="breaker">中央發配疫苗已於今早送達各縣市。</span><span class="breaker">疫苗採就近施打，已開放預約。</span><span class="breaker">因中央配發疫苗數，第一批只到預期一半，所以一律先讓 85 歲以上長者優先預約施打，不便上網預約者，晚間會由里幹事發通知單至住處。</span><span class="breaker">第二批對象為 80 至 84 歲之長者，也請先預約。</span><span class="breaker">之後第三批才是 75 歲以上長者，也是請先預約。</span><span class="breaker">施打地點，部分診所若無足夠空間，會選在附近學校等地點施打，請注意施打通知上的時間及地點，避免多跑一趟。</span><span class="breaker">居住型長照機構內之長者，洗腎中心之患者，已於今日施打。</span><span class="breaker">疫苗施打相關之醫療從事者，以及機動疫苗隊，已於今日施打，這幾天確認無發生副作用，短暫休息後，可於 6/15 馬上為民眾服務。</span><span class="breaker">新北市民，請踴躍前往附近快篩站，找出陽性帶原者，盡早圍堵消滅傳染鍊。</span><span class="breaker">疫苗施打相關，可上各縣市政府網站，或向附近里長及里民服務處電話詢問，盡量避免群聚。</span><span class="breaker">大家一起努力，減少移動及實質接觸，多用電話及視訊聯繫，將病毒阻絕於境外，並協助地方政府管控境內。<span>）</span></span></li>
+  <li>6/11 記者會簡要<span><span>（</span><span class="breaker">持續撲滅熱點中，不考慮區域降二級，請再繼續撐下去，有困難請立即向地方政府諮詢。</span><span class="breaker">6/15 開始針對 75 歲以上長者施打。</span><span class="breaker">目前並沒有疫苗預約施打機制，下週才會公布，請等待中央統一宣布，或使用各地方政府的老人健檢預約系統。</span><span class="breaker">市場、超市、賣場，持續導入新的人流管理科技，減少人力及接觸。</span><span class="breaker">市場實聯分流管理資訊站，具備實聯登錄、人流控管、測溫消毒，現正與廠商合作開發中。</span><span class="breaker">診所偷打疫苗問題，交由各縣市檢調偵辦，待其公布司法調查結果。</span><span class="breaker">中央核發下來的任何疫苗，地方都會配合施打。</span><span class="breaker">正常疫苗一定會產生抗體的，但三期應跟其他疫苗做比較，而非食鹽水跟安慰劑當對照組，否則只是白花錢，拿到「疫苗有效」的無用結論。</span><span>）</span></span></li>
+  <li>6/10 記者會簡要<span><span>（</span><span class="breaker">疫苗極度不足，社區感染依然持續存在，全台依然要保持三級警戒，直到疫苗覆蓋率達 70%。</span><span class="breaker">衛生局職務分工表授權小股長可以分配新冠疫苗，為緊急時期下的監督審核之疏失，已著手修補改善。</span><span class="breaker">國產疫苗二期解盲成功，施打後一定有抗體，但尚未有免疫效力相關實驗報告。</span><span class="breaker">中小型診所施打新冠疫苗問題，由市府檢調政風個別確認，施打對象是否符合前三類優先施打資格。</span><span class="breaker">北市已發行政命令，讓計程車業者可以純載貨免載客不跳錶，立即加入物流業，分擔人力不足問題。</span><span>）</span></span></li>
+  <li>6/9 記者會簡要<span><span>（</span><span class="breaker">中央疾管署透過地方衛生局，寄放在台北市內醫院診所的 AZ 疫苗，將強制由台北市府接手造冊管理，審核所需分發數量，應施打對象全數要打完，並避免承辦小股長錯誤分配，及外流未打完的份，誤給非醫療防疫者施打，造成民眾觸法。親友間加強線上聯絡，減少獨居者死亡問題。</span><span>）</span></span></li>
+  <li>6/8 記者會簡要<span><span>（</span><span class="breaker">三級管制會再持續數個月，直到疫苗覆蓋率達到 70% 以上為止，才有全體免疫效果。</span><span class="breaker">社區傳播鍊尚未撲滅，人民一放鬆，數字就會再加回去。</span><span class="breaker">三級警戒期間，會去調整哪些行業的個例該放他們回去做，哪些該嚴格管制，並把企業全納入統一防疫戰線監督管理。</span><span class="breaker">疫苗施打不求誰最快，需要施打的人，造冊就要打，醫事人員輪休排班時，會再依序分批施打，避免人力斷層。</span><span class="breaker">疫苗施打順序，由地方與中央溝通調整，目前皆一律照中央規定。</span><span class="breaker">殯葬業只要中央疫苗充足，就會立刻排入優先施打順位。</span><span class="breaker">混打疫苗，目前只有先打 AZ 後打 BNT 莫德納，尚無 AZ 後打的科學報告，待之後中央疫苗足夠，才能夠去研究。</span><span class="breaker">購買疫苗，數量與價格息息相關，所以由地方反應需求量，中央去採購殺價，才是最有效率的。</span><span class="breaker">疫苗只要有國際認證，價格不貴，就有多少買多少，先打再說。</span><span class="breaker">防疫、紓困、轉型，是接下來要面對的課題，務實處理，認真溝通，不亂開空頭支票。</span><span class="breaker">熱區圍堵，冷區殲滅，其中有熱點的，派機動快篩隊前往篩檢，避免確診者再度移動。</span><span class="breaker">有需要快篩的團體機關，申請者必須先自行造冊，若人數少於 100 人，則改由防疫巴士，載往定點快篩站。</span><span class="breaker">危機就是轉機，盡快立法納保，讓計程車業支援物流業。</span><span>）</span></span></li>
+  <li>6/7 記者會簡要<span><span>（</span><span class="breaker">三級警戒繼續延長，撐到有疫苗能打為止。</span><span class="breaker">社區傳播已普遍存在於台灣各地。</span><span class="breaker">台灣的參考例是泰國，除監獄內感染外，都是一樣情況。</span><span class="breaker">大量施打計畫，等候中央分配疫苗，場館已備好，隨時可啟用。</span><span class="breaker">行動不便者，由衛生局造冊，再來規畫機動打疫苗。</span><span class="breaker">學校停課至 7/2 暑假以後，停辦實體畢業典禮，期末考及補考採線上測驗、多元評量，基本原則為同年級同科目要有一致性，成績單及獎狀，延至下學期再給，畢業生相關證書則改為郵寄。</span><span class="breaker">今日起警方會同衛生局人員，前往確認死者是否為陽性確診者。</span><span class="breaker">擴大篩檢移工。</span><span>）</span></span></li>
+  <li>6/6 記者會簡要<span><span>（</span><span class="breaker">打疫苗免掛號費，由地方政府負擔，請挑最近的地方施打。</span><span class="breaker">人力用在刀口上，一到五自主管理，六日警力接手管理，市場自治會如無法善盡管理責任，採休市一至三天強制防止群聚。</span><span class="breaker">全國市場、超市、賣場分流，採一三五七身分證尾數單數，二四六尾數雙數入場。</span><span class="breaker">快篩在熱區採造冊強制篩檢，其餘採確診者同心圓方式，向外追蹤相關接觸同住者。</span><span class="breaker">感謝美國捐贈 75 萬劑疫苗到貨。</span><span class="breaker">之前到貨 15 萬莫德納疫苗，其中 7 萬劑將於下週準備配發至各縣市，提供一線醫護施打第一劑，剩餘 8 萬劑將優先保留給前者 28 天後施打第二劑。</span><span class="breaker">京元電子台勞全面上工全天輪班，請假扣全勤，移工全面放有薪假強制隔離。</span><span class="breaker">學校大考聽從教育部指示。</span><span class="breaker">端午連假繼續努力，減少移動，一起戰勝疫情。</span><span>）</span></span></li>
+  <li>6/5 記者會簡要<span><span>（</span><span class="breaker">美國分配給 16 國總數 700 萬劑疫苗的到來時辰未定。</span><span class="breaker">快篩採陽性個數及熱點地圖分析，機動前往快篩，避免無效採檢。</span><span class="breaker">維持三級，到疫苗施打完成。</span><span class="breaker">針對照護機構員工及居服員送餐員，造冊排入優先施打順位。</span><span class="breaker">大量施打疫苗計劃等候中央發配，就可立即執行。</span><span class="breaker">疫苗施打場所，目前是先在醫院，其次健康服務中心的門診部，最後才是啟動大型場館，照每日中央配發的數量來調整，如達每日 50 萬劑，就會啟動交通要點的大型場館。</span><span class="breaker">外攤流動攤販不願遵守規則自我管理，明起直接由警察現場開罰。</span><span class="breaker">鼓勵人民多採視訊來關心親友。</span><span class="breaker">中央疾管署電子圍籬今日下午五點正式上線。</span><span>）</span></span></li>
+  <li>6/4 記者會簡要<span><span>（</span><span class="breaker">撐住，有合格疫苗又價格不算誇張，就先進口，先擋下這波再說。</span><span class="breaker">已開始安排大量施打疫苗計劃。</span><span class="breaker">感謝日本捐贈疫苗，台灣民眾幫助日本，日本幫助台灣民眾，台日友好。</span><span class="breaker">各種感染之中，有種是脫下防護具時，自己手摸到病毒載體，才感染到的，比如說脫了口罩馬上就手去摸眼睛鼻口，醫護的防護衣又更困難，請體恤第一線的防疫人員辛勞。</span><span>）</span></span></li>
+  <li>6/3 記者會簡要<span><span>（</span><span class="breaker">備忘錄：我國已簽訂外購2,000萬劑疫苗。</span><span class="breaker">AZ 各代工國及 COVAX 皆無多餘疫苗可分配給台灣。</span><span class="breaker">日本援台 AZ 疫苗可望在六月下旬提供。</span><span class="breaker">不打疫苗的話，就必須全島四級封城三個禮拜，否則防不勝防。</span><span class="breaker">疫苗一律中央簽約中央分配，緊急授權亦必須由中央與原廠或區域代理談。</span><span class="breaker">四級管制持續演練中，但對國家經濟殺傷力太大，應盡量阻止，避免被迫進入四級。</span><span class="breaker">家族內及工作場所不要共餐，餐具碗盤不要共用，不要聚會。</span><span class="breaker">再度提醒，疫苗施打後，最快要兩週才有完全保護力，但也只是防止重症死亡，無法完全避免感染或帶原，應持續保持三級警戒。</span><span class="breaker">※晚間補充：日本 AZ 預計 6/4 運 120 萬劑來台。</span><span>）</span></span></li>
+  <li>6/2 記者會簡要<span><span>（</span><span class="breaker">戰況膠著。</span><span class="breaker">目前是有症狀才去快篩看醫生，但發病前就有傳染力，建議受檢驗者一律入住防疫旅館，並積極完成疫調。</span><span class="breaker">訴諸公民素質，減少極權手段管理。疫苗預約施打系統建置中。</span><span class="breaker">中央放軟購買外國疫苗的態度。</span><span class="breaker">企業自購進來的疫苗，必須先由中央分配，有剩餘才會給企業自用。</span><span class="breaker">隔離者攻擊醫護，將交由警察處理及通緝。</span><span class="breaker">擴大疫苗施打，避免疫情在北北基桃外的各縣市爆發。</span><span>）</span></span></li>
+  <li>6/1 記者會簡要<span><span>（</span><span class="breaker">參考國外，思考接下來該做什麼。</span><span class="breaker">台北通 Taipei Pass 實聯制，一個 App 整合所有實聯制。</span><span class="breaker">檢疫者請務必填寫真實姓名、可聯絡的電話、正確的住處，以利各地方衛生局聯絡，避免來不及匡列。</span><span class="breaker">各縣市的市場人流管制系統上線測試中。</span><span class="breaker">人民需要的是外國打了一年的認證疫苗。</span><span class="breaker">請中央擴大施打對象到殯喪業等相關接觸行業。</span><span>）</span></span></li>
+  <li>5/31 記者會簡要<span><span>（</span><span class="breaker">感染數趨勢未上升，但分布平均，各處有社區感染。</span><span class="breaker">市場及家族仍為群聚感染的熱區。</span><span class="breaker">防範確診者帶兇器攻擊醫護防疫人員。</span><span class="breaker">盡量在熱區才設立快篩站，避免全是偽陽，增加醫療負擔。</span><span class="breaker">定點快篩站效應下降，配合不便去定點的，機動快篩車實驗中。</span><span class="breaker">住宿型長照機構全面停止看病，但駐院人員及照護者可能會成為感染帶入者。</span><span class="breaker">疫苗才是最終解決方案，再拖三個月，餓死的會比病死的多。</span><span class="breaker">自肅要持續，一放鬆就會死灰復燃。</span><span class="breaker">警消醫護，一定會接觸陽性確診者的先施打疫苗，地區小診所的後續才會再施打。</span><span class="breaker">人家三期做完的價格明確的，你二期都沒做完價格又保密，到底你中央是要保護本土的生技產業，或是本國人民的生命。</span><span>）</span></span></li>
+  <li>5/30 記者會簡要<span><span>（</span><span class="breaker">團結在疫起。</span><span class="breaker">按症狀輕重分級分送。</span><span class="breaker">一人中鏢，全家篩檢。</span><span class="breaker">雙北封城 SOP 已在預演兵推，等候中央下令。</span><span class="breaker">減少去市場的次數，一週兩次，少去多買，攤販輪流停賣。</span><span class="breaker">雙北外請店家市民落實簡訊實聯制。</span><span class="breaker">國產疫苗二期尚待六月底以後解盲，中央已簽訂國產疫苗的預採購合約。</span><span>）</span></span></li>
+  <li>5/29 記者會簡要<span><span>（</span><span class="breaker">終究疫苗才是最終解決方案。</span><span class="breaker">紓困六千億，抽六百億，買疫苗，就把這事情解決掉了。</span><span class="breaker">疫苗要拿到手才算數。</span><span class="breaker">不要在辦公室看數字就下政策。</span><span class="breaker">不要管校正回歸了。</span><span class="breaker">專責病床不是開放兩人一室就馬上可以乘二的。</span><span class="breaker">居家隔離及快篩陽性者，由醫院及快篩站直接開通知單，以電子圍籬管理。</span><span class="breaker">隔離中有需求，請向各縣市健康服務中心諮詢。</span><span class="breaker">雙北封城演練及兵推。</span><span class="breaker">台灣各地已有潛藏的感染源。</span><span class="breaker">做最壞的打算，做最好的準備。</span><span>）</span></span></li>
+  <li>5/28 記者會簡要<span><span>（</span><span class="breaker">繼續保持下去。</span><span class="breaker">租稅減免等地方紓困。</span><span class="breaker">健保快易通 App 的健康存摺有中央與地方資料未同步問題待處理。</span><span class="breaker">外送業者大樓請勿送到門前改放管委會警衛室。</span><span class="breaker">感謝各界捐款及物資。</span><span>）</span></span></li>
+  <li>5/27 記者會簡要<span><span>（</span><span class="breaker">疫苗 15 萬劑已發至全台。</span><span class="breaker">醫護病房專責專用，要重新訓練轉換才能照顧其他疾病。</span><span class="breaker">大家合力防疫，不要群聚，要有常識。</span><span class="breaker">快篩陽性無症輕症者，居家隔離 17 天，搭專責計程車返家，此隔離政策為常態。</span><span class="breaker">稍有症狀者，或不便居家隔離者，才入住專責防疫旅館。</span><span class="breaker">一部分會住進有醫護常駐的加強版防疫旅館。</span><span class="breaker">目前解隔離或無症狀輕症的，會放回居家隔離，以釋出防疫旅館及醫院床位。</span><span class="breaker">不能把全部的醫療能量，全移去處理新冠疫苗。</span><span>）</span></span></li>
+  <li>5/26 記者會簡要<span><span>（</span>疫苗不夠打<span>）</span></span></li>
+
+</ul>
+<div class="spacer"></div>
+
+
+<!--
+<div class="pager"></div>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li><span><span>（</span> <span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+-->
+
+<div id="quicklist">
+<h1>快速選單</h1>
+<ul>
+<li><a href="./index.html">【回首頁】</a></li>
+</ul>
+<div class="spacer"></div>
+</div>
+
+</body>
+</html>
