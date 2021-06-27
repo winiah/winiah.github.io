@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="zh-tw" xml:lang="zh-tw" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 字元編碼 -->
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<!-- 讓搜尋引擎知道該怎麼爬本頁 -->
+<meta name="robots" content="all" />
+<!-- 文件作者名稱 -->
+<meta name="author" content="winiAlienHacker" />
+<!-- 文件授權方式 -->
+<meta name="copyright" content="Creative Commons Deed Attribution-NonCommercial-ShareAlike 2.5" />
+<!-- 本站絕對位置 -->
+<meta name="homePage" content="http://www.andcycle.idv.tw/~wini/" />
+<!-- 請修改頁面標題名稱 -->
+<title>幹話Q＆A - 疾病應變管制一覽表（※測試版※）</title>
+<!-- 請修改搜尋到文件時的頁面描述 -->
+<meta name="description" content="疾病應變管制及各縣市規定" />
+<link rel="start" title="本區的起始頁面" href="./index.html" />
+<link rel="home" title="本站首頁" href="http://www.andcycle.idv.tw/~wini/index.html" />
+<link rel="copyright" title="文件授權方式" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+<link rev="made" href="mailto:winiah@gmail.com" />
+
+<!-- ### COMMENT: 原始碼好髒…(source code so dirty...) ### -->
+
+<!-- ### CSS ### -->
+<style type="text/css">
+@media print { body {padding-bottom:0em!important} }
+body {font-size:18px;padding-bottom:12em}
+//*Debug*// * {border:1px solid red;}
+h1 {text-align:left;border-bottom:1px solid black;clear:both;margin:1em 10% 1em 10%;padding-left:5%} /* 大標 - 基本原則、縣市名稱 */
+h2 {text-align:left;clear:both;margin:1em 10%;padding-left:5%} /* 小標 - 次要說明、管制分類 */
+div.spacer {clear:both}
+div.pager {page-break-after:always}
+ul {list-style:none} /* 列表外框 */
+li /* 項目浮動樣式 */
+  {
+  display:block;
+  width:80%;
+  float:left;
+  text-align:center;
+  border:1px solid black;
+  border-radius:36px;
+  margin:1.5% 6%;
+  padding:1em 0;
+  font-size:xx-large
+  }
+li span {display:block;margin:1em 10% 0 10%;padding-top:0.4em;border-top:1px solid black;font-size:large;text-align:left}
+li span span {display:none}
+li span.breaker {display:block;margin:0;border:0;text-indent:3em;line-height:1.5em}
+li span.warn {display:inline;margin:0;border:0}
+.warn {border-color:red;color:red}
+.warn span {border-color:red}
+.note {border-color:gray;color:gray}
+.note span {border-color:gray}
+div.big_pic {width:60%;margin:3em auto}
+.big_pic img {width:100%}
+div.sml_pic {width:20%;margin:3em auto}
+.sml_pic img {width:100%}
+table tr td:first-child {text-align:center}
+table tr td:nth-child(2) {text-align:center}
+
+/* Troubleshooting: 還在找純css 下拉式選單該怎麼點擊收放、支援純鍵盤瀏覽 */
+@media print { #quicklist , #simple {display:none} }
+#quicklist * {border:0;margin:0;padding:0;font-size:large}
+#quicklist {width:2.2em;border:1px solid black;background:white;float:left;position:fixed;top:0;left:0}
+#quicklist ul {display:none}
+#quicklist:hover {width:auto}
+#quicklist:hover ul {display:block;width:auto}
+#quicklist:hover ul li {display:block;width:100%;clear:both;text-align:left}
+#quicklist:hover ul li a {display:block;width:100%}
+#quicklist:hover ul li a:hover {background:#ff7}
+
+  a:link {color:blue;text-decoration:none}
+  a:visited {color:gray;text-decoration:none}
+  a:hover {text-decoration:underline}
+</style>
+</head>
+
+<body>
+
+<h1>幹話Q＆A（純個人幹譙僅供參考）</h1>
+
+<ul>
+<li>校正回歸？聽都沒聽過！<span><span>（</span><span class="breaker">校正回歸的英文是 "Count adjusted retrospectively" ，不過現在爭論這名詞也沒意義，每日檢驗量能不足、各實驗室結果出來速度不同，造成塞車延遲，那就每天公布確診時，註明是從哪天到哪天的採檢送驗樣本，這個在之前本土數量大增的 5/15 週六就是這樣子了，把標準公開一致，就沒那麼多人會有意見。</span><span>）</span></span></li>
+<li>關於偽陰偽陽<span><span>（</span><span class="breaker">偽陽根本不重要，各類篩檢就是要揪出真的陽性確診，所以快篩陽性先隔離，PCR 跑完再看要放自主管理或送加強防疫旅館還怎樣，要擔心的只有快篩偽陰，然後以為自己沒病的，不做防護到處亂跑，繼續傳染給別人。</span><span class="breaker">會擔心偽陽的，是連防疫旅館都不想準備的，只要合格受訓的防疫人力一直加下去，就可以消化掉偽陽問題，匡住真正的陽性確診者。</span><span>）</span></span></li>
+<li>學生停課亂跑或歡聚？<span><span>（</span><span class="breaker">這沒辦法啦，警力灑下去，學校派人巡，全趕回家，或是請到檢疫所關個十天啦，雙親不工作就是餓死，什麼育嬰補助的，全拿來補助請防疫假的家長，叫家長管好他們家小孩子啦。</span><span class="breaker">養不教父之過，雙親自己要背起責任教育小孩子認識疾病啦，不要全推給學校或社會，不然哪天學校社會就反過來教育你們雙親。</span><span>）</span></span></li>
+<li>趨勢相關<span><span>（</span><span class="breaker">大傳播狀態下，每天去看每日增減沒有意義，要用一週為單位來觀察。</span><span class="breaker">要注意每日增減的，是雙北以外，還有餘力去做疫調足跡的。病毒自我複製速度太快，人類跑不贏病毒的，要選用長期下來能阻斷傳播的方法，不是說反正炸的是雙北，就不關己事。</span><span class="breaker">台灣太小了，坐個高鐵兩小時內，病毒就從北跑到南了，要做的還是自肅，跟有症狀要就醫或去快篩。</span><span>）</span></span></li>
+<li>陽明山停車場爆滿？<span><span>（</span><span class="breaker">各位老屁股要有自覺啦，不要防疫假或 WFH 在家工作，就開車載全家出門去玩，疫情失控的話，就只能全家一起進醫院數星星了。</span><span class="breaker">別人不把你當賊，讓你有基本人權及自由，但不要把方便當隨便，現在就是戰爭狀態，不要不聽勸到處亂跑。</span><span>）</span></span></li>
+<li>家族歡聚？<span><span>（</span><span class="breaker">有戴好口罩嗎？有維持五人以內嗎？都沒有你是在歡聚啥？乖乖洗手，戴上口罩，自己去玩掌機手機平板，記得兩三天就清掃一下家裡。</span><span>）</span></span></li>
+<li>疫調<span><span>（</span><span class="breaker">人的記性不可靠啦，出門打開社交距離 App 跟藍芽，到什麼地方都掃一下店家代碼傳簡訊給 1922 打個卡，地圖軟體自己記錄一下自己去了哪，幾點幾分待了多久比較簡單啦。</span><span>）</span></span></li>
+<li>確診案號改不停<span><span>（</span><span class="breaker">就當天公布當天拿到的，註明是哪段期間的，不要在那校正回歸，造成大家混亂了。</span><span class="breaker">要就乖乖每天列個幾百幾千，要不就把校正回歸的另設編號。再亂下去，各地方政府直接自己寫個新代號對應過去算了。</span><span>）</span></span></li>
+<li>詐騙電話說確診要匯款？<span><span>（</span><span class="breaker">平時就會上當的，這時一樣會上當啦。自己當個聰明人，先掛斷電話，打 165 去問。</span><span>）</span></span></li>
+<li>上海復星代理 BNT 疫苗到期？<span><span>（</span><span class="breaker">嚴格來說是續約年費到期要續繳，需要低溫保存的疫苗，貨都是放在德國那。不過還是老話一句：</span><span class="breaker">「啊所以你台灣政府要還是不要這批德國純製品？」</span><span>）</span></span></li>
+<li>血氧不足猝死？<span><span>（</span><span class="breaker">啊這就沒錢沒辦法知道呀，一台會顯示正確數值的血氧偵測機，不會一下 95 一下 89 亂跳的，都破三千元，搞不好沒五千都是看好玩的，你現在要叫各縣市自己掏錢生出足夠的量去定時監測？先顧好醫院跟防疫所人力床位調度，不要搞到量能崩潰比較重要啦。</span><span class="breaker">目前就自己有慢性病，超級高齡，三高疾病，還快篩陽性的，早點先交代完後事，然後每天練習保持有意識的自主呼吸，有真的呼吸急促再 call 人來幫，不要成天緊張自己嚇自己，好好配合醫護這樣，不然人力物力就是沒有準備，不可能一人配一組醫護照顧你。</span><span class="breaker">要想降低重症死亡率，早一年前就該準備了。</span><span>）</span></span></li>
+<li>國產疫苗七月可施打？<span><span>（</span><span class="breaker">新研發的疫苗何時能打，沒有先射箭再畫靶的啦，該跑的流程還是要跑，要搞緊急授權也不是不行，但不能訂個日期就跳過最低門檻硬上啊！</span><span class="breaker">講真的啦，不能把全體國民當白老鼠，至少把二期試驗做完再來公測呀。</span><span class="breaker">三期沒跑完也還好，就多點風險，然後國際上不承認沒過三期的疫苗護照而已，有效就先打再說。</span><span class="breaker">※註：結果今天5/25政府跟我們說要八月！八月！好吧，至少該跑的流程都跑好再施打，先放別國的疫苗進來吧。</span><span class="breaker">※註：5/26，九月，哈哈哈，不好笑。</span><span>）</span></span></li>
+<li>資遣？那你有拿到錢嗎？<span><span>（</span><span class="breaker">資遣就是馬上拿到錢，開個非自願離職單給你，你有求職跟生活困難，半年內去申請失業補助，然後去人力網積極求職，或等幾個月，看原公司會不會通知你原職復位。</span><span class="breaker">沒叫你請無薪防疫假到七月，或逼你自行離職，都已經很正常了。</span><span class="breaker">四月底社區感染炸開，就該立即進三級警戒了，還放兩週沒做啥，當然是準備痛一個半月以上，來切斷傳了兩三週的傳播鍊。</span><span class="breaker">要知道，公司就算沒賺錢，你不領薪水，也不需要資遣，但公司的場地如果是租來的，那不先把公司人踢光，把公司登記地址改老闆自己家，那就是要一直付錢養地主房東。</span><span class="breaker">別人美國還會逼你房東不准收錢趕人，台灣？北漂族快點找地方政府救你比較快啦。</span><span>）</span></span></li>
+<li>紓困金？那是政府借你的呀！<span><span>（</span><span class="breaker">除了那些幾兆幾億的大灑幣，政府就是會跟市民計較一堆小錢，不要以為政府會真的對人民好，投完票就不監督了，中共一助攻就嚇得亂投，政府幹嘛沒事準備一堆錢，在緊急時拿出來無償幫助你。</span><span class="breaker">納稅金要怎麼用，平時就要監督政府，不要期待橡皮圖章。</span><span>）</span></span></li>
+<li>群聚是大流行的因素<span><span>（</span><span class="breaker">4/15 開放 3+11，接下來 4/20 兩名確診機師，應該是一兩天前送驗的，所以有違反自主健康管理的，早已經在外頭跑兩天了，高鐵可以來回坐個六趟了，阿公店可以包下來玩一整天了。</span><span class="breaker">接著是 5/14 的阿公店大爆發，基本上社區感染已經發生四週了。</span><span class="breaker">然後 5/9 是母親節，人口流動更多，還是三代同堂的大日子，兩三週後的數字暴衝，也會含入母親節的確診。</span><span class="breaker">接下來是看 5/28 的增減狀況，如果還是沒停止的現象，就代表三級警戒還有擋不住的破口，到時再看中央地方要怎麼調整。</span><span class="breaker">※註：對啦，還有個諾富特忘了算他的帳。</span><span>）</span></span></li>
+<li>醫院一人一室？病房不夠啦！<span><span>（</span><span class="breaker">隱私權去吃 shxt 啦！都是中重症確診送進去了，判斷原本的三人房兩人房，可以塞兩個病人，就塞進去啦！隔什麼窗簾的，多一大塊布要消毒，浪費人力資源，在意隱私就自己戴個墨鏡啦，不要為難醫護了。</span><span class="breaker">救護車在外面繞大半天，你為了一人一室的規則，放著能救的不救，這是中央要自己檢驗沒問題，就放給地方醫院自主調整的，不要老是鴿子封包又在那玩數字遊戲，冥頑不靈。</span><span class="breaker">還是那句老話啦，準備了一年，這種東西早就該實測完了，怎麼搞得像今天才知道考題是啥。</span><span>）</span></span></li>
+<li>10 分鐘可傳 500 筆資料，你用手寫的算了。<span><span>（</span><span class="breaker">這就一直被台日網友笑的，你電子化比別人手寫完，按計算機加總的還要慢，在企業裡早被老闆釘到天上了。</span><span class="breaker">到底卡在哪，是要輸入的欄位太多，還是說你後台不會幫忙把小處更新的自動更新到每個待辦案號上，合標準就自動設定為確診，這要修也不是一天兩天的事，給個一個月再說。</span><span class="breaker">還是那句老話啦，講到爛不想再戳了。</span><span>）</span></span></li>
+<li>萬華病毒？你是超時空軍團兵喔。<span><span>（</span><span class="breaker">這個問題實在太蠢了，現在社區感染的，就是英國變異株，剩下有小學畢業的，都知道怎麼回事了。</span><span class="breaker">※補充一下，現在也沒特別去查是不是英國株還印度株，大家真的要懂得趨吉避凶，不要再自信爆棚了。</span><span>）</span></span></li>
+<li>清冠一號？那不是草藥嗎？<span><span>（</span><span class="breaker">之前怎麼笑中國的，麻煩照個鏡子。</span><span class="breaker">清冠一號是不能治武漢病毒的，當然也不能治療腦殘。</span><span class="breaker">吃養生的就吃養生的，支持療法就支持療法，根本不是疫苗的，不要假裝成有預防效果好嗎。</span><span class="breaker">要改服用清冠一號，也好好跑完現代科學治療，不要一住院就想靠草藥治啦，好好聽醫護的話，反正本來治療一個月內，沒變重症的，都會出院啦，想吃安慰劑還養生食品，也要醫生准許啦。</span><span class="breaker">【注意事項】冠清一號是中國的，不要吃到冠清一號，沒病變有病。</span><span>）</span></span></li>
+<li>年輕人感染不會變重症？「皮諾可這個直接電死」<span><span>（</span><span class="breaker">武漢全身發炎，身體各處都會有病毒，肺部 X 光照下去一片白，醫界有句口訣稱為「血水膿痰細胞蛋白」，反正不要拿自己的命去賭，能不被感染就是好事，能夠做到不要感染別人，死後可以得道成佛，善哉，阿彌陀佛。</span><span>）</span></span></li>
+<li>3+11 什麼時候停？<span><span>（</span><span class="breaker">能決定這政策的，沒有一個不是得益者，最根本還是要打疫苗才能放鬆隔離期啦，長榮都痛過一次乖乖來了，沒道理華航做不到。</span><span class="breaker">沒有打疫苗，那就乖乖隔離 14 天，自己遠距跟家人談話解悶，不要偷偷去喝茶吃魚摸竹筍還什麼不敢見人的場所，有需要就自己打出來啦，超級老屁股們還是要對自己的風險程度高低有點自覺。</span><span>）</span></span></li>
+<li>假網站？假新聞？我看報紙才知道。<span><span>（</span><span class="breaker">這個真的是喔……我的 IP 是 127.0.0.1 啦！</span><span class="breaker">不要再尾巴搖狗了，把那堆網路公關啦九萬發言人啦的錢省下來啦，全捐給各縣市專款專用，快點解除地方資金難啦。</span><span>）</span></span></li>
+<li>店家執意開放內用？檢舉他呀！<span><span>（</span><span class="breaker">勸導沒用，直接開罰。大家有看到明顯是開放客戶內用，店內客戶超過五人、沒採梅花座的，先打 119 請警察去確認。</span><span>）</span></span></li>
+<li>倒店？關店？不開店？<span><span>（</span><span class="breaker">自己摸一下自己口袋的深度，看要配合外送業者，還是乾脆關了領補助。</span><span class="breaker">防疫是沒有輸贏，只有大家守規則，才能讓系統發揮最大效能。</span><span class="breaker">你這週不肯關起來，會害你跟其他至少十人被送去隔離十天以上，甚至還變成死亡數字（中央並不關心你這數字是誰），那短期看起來還是虧到腎虧，不值得冒險。</span><span>）</span></span></li>
+<li>原廠授權書？這你中央可以特例緊急處理呀！<span><span>（</span><span class="breaker">不想再說了，老問題。別人賣的又不是假藥，你中央直接牽個線，一天就搞定的事。</span><span class="breaker">※補充：企業買來捐贈給政府的話，並不需要原廠授權書，因為並不是政府企業間的買賣，只要證明東西沒問題就好。</span><span class="breaker">※6/4補充：哈哈，今天變成要求保證供貨才給申請……你國產疫苗連影子都沒有也能預訂，國外的不行。</span><span>）</span></span></li>
+<li>桃園確診數上升？早就知道的事。<span><span>（</span><span class="breaker">北北基桃就是在一起的，高鐵也很方便，基本上全台過段時間，都會變成雙北，所以才要靠疫苗早點防堵感染。</span><span>）</span></span></li>
+<li>有數量就沒日期<span><span>（</span><span class="breaker">回頭去翻去年九月至今，近一年來的疫苗進口相關報導及中央說法，扣除真的有到貨的，剩下都是有確定數量就沒日期，有確定日期就沒數量，所以不要再傻傻等政府了！</span><span class="breaker">有錢有閒，自己飛去美國打，每年都飛出去兩到四次，或乾脆定居美國。</span><span>）</span></span></li>
+<li>苗栗京元電爆群聚<span><span>（</span><span class="breaker">不是把工作場所排除在足跡外跟管制外，就能避免工作時感染的，這跟飛彈只會打台獨份子一樣沒科學根據。</span><span>）</span></span></li>
+<li>打疫苗血栓要自費70萬救命？<span><span>（</span><span class="breaker">哈哈哈……跟你說啦，出院時跟醫院簽個文件，看是要等保險給付下來再還，還是分期付款去還，欠醫院錢，總比欠政府錢好，不要相信什麼健保代墊跟代位求償啦。</span><span>）</span></span></li>
+<li>京元電不能停工？<span><span>（</span><span class="breaker">台灣半導體，代工代到世界第一不可欠缺，可是卻連代理生產疫苗，給勞工施打都做不到，老闆還能插隊打疫苗，那當然是當下驗了陰性的，馬上叫去上工，不然你勞工是能付錢給老闆嗎。</span><span class="breaker">記住，我們選了勞工是心裡最軟的那塊的執政黨，現在韭菜被收割，也不能怪別人，自己要當 817 的，2022 跟 2024 又會再傻傻被騙一次，那就活該被繼續吸血。</span><span class="breaker">台灣只會用加強三級花好幾個月，慢慢殺死人民，絕對不會進四級封城三週解決問題，真的到封城那一天，就是民進黨全面戒嚴的日子，到時還是會把人推上產線繼續幫老闆們賺錢。</span><span>）</span></span></li>
+<li>政府有沒有卡疫苗進來？<span><span>（</span><span class="breaker">美日捐贈都得偷偷硬插進來給台灣政府收了再大內宣才有得打，政府只要照規則來，就可以玩死人民。</span><span class="breaker">平時這樣玩頂多幹在心裡，現在分秒必爭，還搞官僚文化，一直新增理由來退件，退件理由也沒跟你說這樣改是不是可以，我還以為又回到台灣光復初期了呢。</span><span>）</span></span></li>
+<li>三級警戒持續到 6/28？<span><span>（</span><span class="breaker">有很奇怪嗎，只會在 6/4 時出來喊「不會忘記在天安門犧牲的年輕人」，還有國產疫苗股價連續跌停，才會馬上出來喊話的執政黨，基本上不會理會人民死活，他們有比保護人民還更重要的事要做。</span><span class="breaker">打病毒有打政敵那麼認真的話，現在就已經解除三級警戒了，更別談執政黨根本沒在演練四級封城，疫苗政策跟人口數相差不多的澳洲一比，台灣政府根本活像是一群朝三暮四的猴子。</span><span>）</span></span></li>
+<li>中共阻撓？<span><span>（</span><span class="breaker">要花錢買國外疫苗時，中共會阻撓，但你要把高端賣出國時，中共就不會阻撓。請問我們的執政黨是跟共產黨有私通的共諜嗎？</span><span class="breaker">國產疫苗根本還在別人一年前的進度，二期完成做出來也拿不到認證，到時候一樣出國先關十四天，你還不如現在就買外國合格認證疫苗打一打算了。</span><span class="breaker">更別談今年就已經出現三種以上的病毒變異株了，你國產疫苗根本追不上別國的車尾燈，打國產到時候只會害死更多人民。</span><span class="breaker">記住一件事，中共阻撓這件事，沒辦法證偽，所以沒有必要討論。</span><span>）</span></span></li>
+<li>指考？高普考？國考？你的疫苗呢？<span><span>（</span><span class="breaker">唉，這個政府真的沒救了。</span><span>）</span></span></li>
+<li>物價高漲？<span><span>（</span><span class="breaker">哈哈哈，哪次不物價高漲，難不成漲了你有看過跌回去的嗎。</span><span>）</span></span></li>
+<li>台南振興公園的群聚及聚賭問題<span><span>（</span><span class="breaker">多點人檢舉，多點人去現場拍照打卡上傳，直播給全世界看最簡單啦，就是看有沒有人真的關心而已。</span><span>）</span></span></li>
+<li>感謝美日捐贈疫苗<span><span>（</span><span class="breaker">以後要多吃萊豬跟核食，才能報答美日恩情。（各種政治不正確）</span><span>）</span></span></li>
+<li>疫苗不好買<span><span>（</span><span class="breaker">別人免費施捨時，就沒有中國打壓，或是發現中國是紙老虎不怕他們，那為什麼要花錢買時，就一堆阻力出現。</span><span class="breaker">台灣不是沒有錢，只要一次簽個一千萬劑兩千萬劑的契約，一箱箱美金往藥廠的臉砸下去，他們就會把原液給包冷鍊空運來台了，到時看你台灣要自己怎麼分裝都可以。</span><span class="breaker">你一次只肯買兩百萬？請找當地代理商，不要來煩原廠了，乖乖等 COVAX 分配，或跟美日爹親娘親乞討吧。</span><span>）</span></span></li>
+<li>疫苗分配不公？診所偷打？<span><span>（</span><span class="breaker">今天要是有個三千萬劑 AZ 莫德納 BNT 能選，就沒什麼人會關心這 15 加 100 瓶的一千多劑了。</span><span class="breaker">現在疫苗短缺，對應方式就是日後疫苗管理，要全面公開透明上網來解決，不要衛生局一個小股長就可以隨便配發，不能把對基層的信任，當成給特權的方便，又不上報給長官知道。</span><span>）</span></span></li>
+<li>3+11 沒錯？請問你打到疫苗了嗎？<span><span>（</span><span class="breaker">別人以色列是疫苗覆蓋率夠高，才能解封，爽爽過台灣去年的生活。</span><span class="breaker">結果台灣今年從 7+7 到 5+9 到 3+11 一路放鬆邊境管制，常出國的機組員也不打疫苗，連去年的 14+7 的及格線都沒有，還想放變異株病毒進來玩三個月以上，那當然哪天冒出個台灣病毒也不奇怪。</span><span class="breaker">蔡英文什麼都管不到，什麼都要柯文哲負責，那直接讓他當總統算了，要藍綠拖在那坐領乾薪，還順便謀財害命幹嘛。</span><span class="breaker">※6/27 補充：以色列現在也打龜了，室內一律戴口罩，不過至少在開放空間是不用戴口罩的。</span><span>）</span></span></li>
+<li>把新冠疫苗當成流感疫苗來發？<span><span>（</span><span class="breaker">還真的。把破洞修補起來，改正審核流程。反正疫情還要燒一兩個月以上，現在把努力防疫的人打下台，一定是大爆炸又死一堆人。</span><span class="breaker">我想有腦袋會思考的人，應該也不用特別說明這情況下，該怎麼做了吧。別鬧到讓中央來接手台北市，這樣台灣一定死到明年，都還在每天幾十死。</span><span>）</span></span></li>
+<li>中央寄放在地方的公關針？<span><span>（</span><span class="breaker">這要問中央呀。外交使節等的，維持國家運作必要人力等的，都是有特權的。反正疫苗就不夠，才會有相對剝奪感。</span><span>）</span></span></li>
+<li>疫苗再貴都要買？<span><span>（</span><span class="breaker">廢話，中央去年開始一直大內宣，什麼 2,000 萬劑 3 月可供貨，什麼代理 1,000 萬劑首季到貨，結果呢？五月跟你說到貨的只有不到 100 萬劑，那當然得跟人擠呀蹭的，出高價搶買別國預約走的現貨呀。結果你中央今天 6/11 說國產全世界最貴，是因為我們之前說過再貴都要買？哈？</span><span class="breaker">今天 6/18 中央終於放了台積電自購 500 萬劑，順便也放了郭台銘永齡基金會自購 500 萬劑，結果柯建銘在那曝「他買的價格是42美元」，哈，又不是你政府付錢，別人買的也是國際認證跑完三期的，你是憑什麼批評？反正進來還不是被你們中央收割名聲去，美其名是企業捐贈，其實是給政府趁火打劫。</span><span>）</span></span></li>
+<li>原廠憑什麼理你？<span><span>（</span><span class="breaker">連美國施捨的那 75 萬劑都不知道啥時會拿到啥，台灣這疫苗乞丐還想要求德國 BNT 原廠理你？去找你的大中華代理商啦。</span><span class="breaker">輝瑞唯一能進入台灣的方法，就是美軍開飛機進來，直接衝到晶圓代工廠，給所有人一人一針，然後再全收掉飛回去，不可能讓乞丐在那挑要什麼。</span><span>）</span></span></li>
+<li id="d2021_06_14_AM_01">網路預約接種疫苗系統是在擾民？<span><span>（</span><span class="breaker">基本上台北市是發書面通知單，跟網路預約並行，除了預約的會先打，和其他縣市根本沒有任何差異。</span><span class="breaker">網路預約就是給人民方便，能自選診所，線上取得號碼單，馬上知道哪些診所額滿。接下來診所人員就會跟你確認預約的日期時間。</span><span class="breaker">網路預約目前就兩個缺點，一是沒辦法預約時，直接選擇時間，還是要診所人力去聯絡，二是之後中央推出的新預約系統，得要再花人力時間，去整合進去。</span><span class="breaker">「如果中央的預約系統，６月６號就生出來給大家測，那我們今天吵網路預約，不是很可笑嗎？」</span><span class="breaker">參考資料: <a href="https://twitter.com/audreyt/status/1400997165023993858">Audrey Tang 唐鳳 "上午 10:05 · 2021年6月5日" / Twitter</a> 「My sentiments exactly. Thank you! Rest assured, #Taiwan’s 1922 vaccination appointment reservation system will put #Japan’s generous gift to good use immediately.」</span><span class="breaker">同場加映: <a href="https://www.facebook.com/taiwanweicher/posts/4398187676899701?comment_id=4398574196861049">Ruby Chang 拜託市長及相關防疫單位不要再散播不實的消息！！！</a> 我們這邊基層收到你們上頭給的指令是要民眾”自行”跟合約診所「預約」「預約」「預約」結果你們還持續在網路發佈「不用預約」的消息，我們基層工作人員已經被民眾ㄍㄧㄠˇ爆了！整個SOP跟佈達指令的狀況完全不一致！爛透了！！！</span><span>）</span></span></li>
+<li id="d2021_06_14_AM_02">打眼鏡行幹嘛<span><span>（</span><span class="breaker">如果是合格驗光師，那就是前三類的，跟營養師、聽力師，一堆要認證的一樣，都是醫事人員呀，中央允許就可以打，不去打也只是讓出名額給其他高風險的打。</span><span class="breaker">說到底還是如果我們去年九月就搞技轉代工，今年三月就進口好三千萬劑疫苗，沒有一路放鬆機組員隔離期間，沒有讓旅館混居檢疫者跟一般客，沒有放任傳播鍊炸開才甩鍋地方，那幹嘛需要這樣互相傷害？</span><span class="breaker">※補述：基本上會進出高風險地點的，都要打疫苗，不然就像 SARS 一樣，外包洗衣工中獎，整棟和平醫院就因為洗衣工在外受感染，才發生院內感染。現在就中央和平日子過習慣了，腦袋跟不上五六月的現實問題。</span><span>）</span></span></li>
+<li id="d2021_06_14_PM_01">未接來電？拒接？傻傻分不清。<span><span>（</span><span class="breaker">王○宇系列都是可以因人廢言的。</span><span class="breaker">你衛福部長，打電話給副市長，跳過衛生局跟市政府，跳過公文，是想講什麼，重大決策直接打電話通知嗎，連會議記錄都不用這樣子嗎。</span><span class="breaker"><a href="https://www.facebook.com/taipei33/posts/335857881241839">黃珊珊 - 信任別人很難嗎?... | Facebook</a></span><span class="breaker">※補述：結果是晚上黃珊珊睡著時來電未接，隔天一早她回電，陳時中未接，下午陳時中才跟黃珊珊聯絡上，當然我是不知道談了啥啦。</span><span>）</span></span></li>
+<li id="d2021_06_14_PM_02">原住民為什麼 65 歲以上都能優先打？<span><span>（</span><span class="breaker">因為原住民平均壽命只有 71 歲。</span><span class="breaker"><a href="http://www.kmuh.org.tw/www/kmcj/data/10511/8.htm">何以原住民平均餘命較短？淺談族群健康不平等的因素</a></span><span>）</span></span></li>
+<li id="d2021_06_14_PM_03">廣篩？普篩？快篩？不都一樣嗎？<span><span>（</span><span class="breaker">別再鬧了 4% 普篩仔！</span><span>）</span></span></li>
+<li id="d2021_06_14_PM_04">疫苗沒打完，不能冰回去嗎？<span><span>（</span><span class="breaker">跟冰的生啤酒拿出來退冰，再冰回去，得到的結果差不多，更何況是開封過的，所以結論還是拿出來就要用完，不要去賭命。</span><span>）</span></span></li>
+<li id="d2021_06_15_2100">接種預約系統做好了，只是這次不能用？<span><span>（</span><span class="breaker">滿分考卷沒法在考試結束前交，也是零分。</span><span>）</span></span></li>
+<li id="d2021_06_15_2125">台灣不是法治國家<span><span>（</span><span class="breaker">想看好心肝診所誰偷打，診所想看預約者的身分證字號以外的資料，都是一個法律能解決，『個資法』，你能簽保密合約，有工作上的必要性，就可以看到爽。</span><span>）</span></span></li>
+<li id="d2021_06_16_0745">0+7<span><span>（</span><span class="breaker">哈哈哈哈哈哈！各位，先去買好塔位吧。</span><span class="breaker"><a href="https://www.cdc.gov.tw/Bulletin/Detail/Aaw09pr_bNORqPc8F1fUSA?typeid=9">調整國籍航空公司機組員返臺檢疫措施，確保機組員職場健康安全及維護國內防疫安全 - 衛生福利部疾病管制署</a></span><span>）</span></span></li>
+<li id="d2021_06_17_0928">警戒降為 2.5 級，中央收回地方開疫情記者會及疫調的權力？<span><span>（</span><span class="breaker">很怕齁，自己要甩鍋給地方的，看到控制下來，才想來收回下放的權力。</span><span class="breaker">大家自己要知道，願意公開透明上網的，會真的擔心人民的，到底是誰，不要被那種早就設定好數字的假民調，給牽著鼻子走。</span><span class="breaker">媒體也是要吃飯的，誰給的錢多，就幫誰業配、打擊政敵、寫好新聞。</span><span>）</span></span></li>
+<li id="d2021_06_17_1020">美國緊急授權 EUA 不代表世界標準？<span><span>（</span><span class="breaker">好喔！那就全照規定來審核，看你國產十年後有沒有辦法得到國際認證。自己國人都半信半疑的疫苗，你只能找幾百萬隻台灣獼猴來實驗啦。</span><span>）</span></span></li>
+<li id="d2021_06_17_1025">打疫苗會死人好可怕<span><span>（</span><span class="breaker">看你想賭 0.03% 的死亡率，還是 3% 的死亡率。台灣邊境管制就失敗了，連疫苗都不夠打，你三級是能再維持多久？</span><span>）</span></span></li>
+<li id="d2021_06_17_PM_01">越南五月購買 BNT 七月就能出貨第一批？<span><span>（</span><span class="breaker">哈哈哈哈，台灣真的只配當乞丐，紓困預算撥個 10% 下去，就可以搞定的事，弄到活像乞丐。</span><span class="breaker"><a href="https://www.cna.com.tw/news/aopl/202106170219.aspx">越南買3100萬劑BNT 輝瑞：首批7月交付 | 國際 | 中央社 CNA</a></span>
+<span>）</span></span></li>
+<li id="d2021_06_17_PM_02">國產疫苗會被美國承認<span><span>（</span><span class="breaker">就跑 FDA 一般認證呀，三年慢慢等，沒問題就會被承認呀，不過搞不好中國今年就先承認了呢。</span><span>）</span></span></li>
+<li id="d2021_06_18_0235">老人接種疫苗後容易死亡？<span><span>（</span><span class="breaker">你沒事一大早拉他們出去排隊幾小時，不是曬太陽，就是淋大雨，不死也得死。</span><span class="breaker">第一波接種就是超級高齡的，說句不道德的話，什麼時候死亡都有可能，至少不是打疫苗一定會死。</span><span class="breaker">大家還是乖乖走預約接種，不要沒事去排隊那麼久，打完等好三十分鐘再離開。</span><span class="breaker">回家後就要觀察長者的身體狀況，該吃貴一點的普拿疼就買貴一點的，真的沒辦法就叫救護車送去給醫生看。</span><span class="breaker">其他就是老毛病，有慢性病要注意慢性病問題，有過敏要注意過敏問題，吞嚥食物跟喝水，不要噎到跟嗆到，就是照平常的方式生活，當成是打流感疫苗一樣，該有的照顧要做。</span><span class="breaker">※註：只要地方政府覺得是疫苗問題，就會送司法相驗，就等驗出的結果再說。</span><span>）</span></span></li>
+<li id="d2021_06_18_1602">台積電跟永齡基金會談到共一千萬劑<span><span>（</span><span class="breaker">沒拿到手，都是假的。</span><span class="breaker">郭台銘提出申請都超過半個月了，誰還會再相信中央政府沒故意搞人。</span><span class="breaker">現在只是政府背後的財團跟美國爹親，叫政府乖乖聽話而已，你還真相信中央沒搞人，是不是舔共媒體跟公關網軍餵的屎吃太多了。</span><span>）</span></span></li>
+<li id="d2021_06_19_2250">美國捐贈 250 萬劑是要避免政治操作？<span><span>（</span><span class="breaker">說美國被瘋婆子嚇到了，才從 75 萬劑，一下加到 250 萬劑，還比較有可信度。上次軍機來台，就已經是在摸頭執政黨了，傻了才相信是在警告在野黨。</span><span class="breaker">要知道，台積電不是只屬於台灣的，真的想移走，台灣政府擋不住。台灣執政黨再這樣各種自找死路，哪天醒來，護國神山就會跑走了，到時是要靠那幾家技術看不到別國車尾燈的生技？呵呵。</span><span class="breaker">順帶一提，四月底時，美國調升台灣旅遊警示等級為三級，表面上也是叫大家不要想太多，現在回過頭來看，根本就是台灣人太恐龍神經了而已。</span><span>）</span></span></li>
+<li id="d2021_06_24_1150">北農接種每攤只限一人？<span><span>（</span><span class="breaker">那是北農造冊，交上去的就只有攤主一人的問題呀。還是老問題啦，今天買的疫苗再爛，有三千萬劑 AZ 在手，你還會在意前三類解壓縮，越解越多人的問題嗎。</span><span class="breaker">說真的啦，各縣市首長，一定都會覺得管你是誰，高風險的全接種，家屬也全接種，最好大家滿十八歲的，直接就去醫院診所插一針，拿愛心小卡，記得下次再插第二針，啊台灣政府就是做不到，不就是疫苗根本只能跟人跪求乞討的問題嗎。</span><span>）</span></span></li>
+<li id="d2021_06_25_1805">台灣人根本不認識武漢肺炎病毒<span><span>（</span><span class="breaker">冠狀病毒這玩意簡單說，所有人單獨一個人關起來一個月，不吃不喝不吸空氣，一個月後還活著，就可以解除三級警戒。</span><span class="breaker">COVID-19 麻煩就是在於，SARS 跟 MERS 只要你發燒，就知道是確診，但武肺你不去跑一堆快篩跟 PCR 檢測，那這帶原者跟正常人沒任何差別。</span><span class="breaker">所以不是每年打疫苗跟病毒共存，那就是要把人關到死光，讓病毒沒法寄生，才能根絕掉這病毒的傳播。</span><span class="breaker">總之以台灣人可憐的腦容量來看，接下來縣市間的紛爭會越來越激烈，明明跨縣市跨單位的問題，應該要中央來管理，結果直接甩鍋給地方，台灣只能選出這種執政黨，可憐吶。</span><span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+
+
+<!--
+<div class="pager"></div>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li><span><span>（</span> <span>）</span></span></li>
+</ul>
+<div class="spacer"></div>
+-->
+
+<div id="quicklist">
+<h1>快速選單</h1>
+<ul>
+<li><a href="./index.html">【回首頁】</a></li>
+<li><a href="./diary.html">每日記者會簡要</a></li>
+</ul>
+<div class="spacer"></div>
+</div>
+
+</body>
+</html>
