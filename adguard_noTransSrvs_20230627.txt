@@ -1,4 +1,6 @@
+!
 ! Adguard - Filters - Custom
 ! no transportation services ads
-! block Buyee,JapanRabbit,tenso...
-melonbooks.co.jp###bcIframeWrap,.whiterabbit-banner,a[target="_blank"]
+! block Buyee, JapanRabbit, tenso...
+!
+||melonbooks.co.jp###bcIframeWrap,.whiterabbit-banner,a[target="_blank"]
